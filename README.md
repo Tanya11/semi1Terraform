@@ -1,18 +1,12 @@
 # semi1Terraform
-Terraform
-Un ejemplo de como utilizar terraforma
-
-Pre-requisitos portapapeles
 Tener instalado Terraform Primero instalarmos el manejador de paquetes snap
 sudo apt-get install snap
 Instalamos Terraform
 sudo snap install terraform
-requisitos unicos
 
-Comenzando cohete
 Para empezar tenemos que crear nuestro archivo con extensión .tf
 nano nombre.tf
-Una vez dentro del editor, copiamos el siguiente código, que es una configuración básica para una instancia en Amazon Web 
+Una vez dentro del editor, copiamos el siguiente código, que es una configuración básica para una instancia en Amazon Web Service
 
 #variable "access_key" {}
 #variable "secret_key" {}
@@ -202,5 +196,3 @@ output "ubuntu_ip" {
 #  value = "${aws_eip.ip2.public_ip}"
   value = "${aws_instance.ubuntu-terraform.public_ip}"
 }
-Al aire libre
-Al aire libre
