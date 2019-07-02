@@ -1,12 +1,3 @@
-# semi1Terraform
-Tener instalado Terraform Primero instalarmos el manejador de paquetes snap
-sudo apt-get install snap
-Instalamos Terraform
-sudo snap install terraform
-
-Para empezar tenemos que crear nuestro archivo con extensión .tf
-nano nombre.tf
-Una vez dentro del editor, copiamos el siguiente código, que es una configuración básica para una instancia en Amazon Web Service
 
 #variable "access_key" {}
 #variable "secret_key" {}
